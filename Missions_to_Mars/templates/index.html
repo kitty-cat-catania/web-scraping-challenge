@@ -26,7 +26,7 @@
             <img src="{{ monster.featured_img_url }}" alt = "Mars">
         </div>
         <div class= "col-lg-4">
-            {{ monster.html_tab }}
+            {{ monster.html_tab | safe }}
         </div>
     </div>
     <div class = "row">
